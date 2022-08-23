@@ -1,0 +1,11 @@
+.app{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main{
+    width: 41.5%;
+    min-height: 100vh;
+    margin-left:28.4%;
+    margin-right: 30.2%;
+}

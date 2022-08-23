@@ -1,0 +1,114 @@
+
+.notificationTile{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0rem;
+    padding-right: 10px;
+}
+
+.singleLeadingImage{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.singleLeadingImage img{
+    width: 52px;
+    height: 52px;
+}
+
+.doubleLeadingImage{
+    position: relative;
+    padding-right: 10px;
+    
+}
+
+.doubleLeadingImage img{
+    width: 46px;
+    height: 46px;
+}
+
+.belowImage{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.frontImage{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.rightColumn{
+    flex: 1;
+    margin-left:5px;
+}
+
+.nfcWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.nfcText{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nfcText p{
+    text-decoration: none;
+    font-size:16px;
+    color:black;
+}
+
+.nfcText p > span{
+    font-size:14px;
+    color:#6b6c6c;
+    margin-left: 0.25rem;
+}
+
+.endImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.endImage img{
+    height: 48px;
+    width: 48px;
+}
+
+.postPreview{
+    display: flex;
+    justify-content: center;
+    background-color:#f3f3f3;
+    margin-top: 0.85rem;;
+}
+
+
+.postPreview img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.descriptionWrapper{
+    display: flex;
+    border: 1px solid #7e7e7e;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    padding: 0.5rem 1.5rem 0rem 0.5rem;
+    font-size: 0.7rem;
+    line-height: 0.825rem;
+}
+
+.descriptionWrapper p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    max-height: 3.35rem;
+ }

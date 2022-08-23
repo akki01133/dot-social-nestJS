@@ -1,0 +1,99 @@
+
+.userProfile{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    margin-bottom: 30px;
+    margin-left: 15px ;
+}
+
+.userprofileLeft{
+    margin-right: 30px;
+    margin-left:30px;
+    padding: 0;
+}
+
+.userProfileImage{
+    width:128px;
+    height:130px;
+    border-radius: 50%;
+    border: 1px solid #bbb;
+}
+
+.userProfileRight{
+    display: flex;
+    justify-content: flex-start;
+    align-items:left;
+    flex-direction: column;
+}
+
+.userProfileRightTop{
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.userIdText{
+    font-size:28px;
+    font-weight:300;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #262626;
+}
+
+.editProfileBtn{
+    padding: 5px 5px;
+    border-radius: 4px;
+    border: 0.5px solid #262626;
+    font-size: 12px;
+    margin-left: 18px;
+    margin-right: 18px;
+    color: #262626;
+}
+
+.settingIcon{
+    height: 22px;
+    width: 22px;
+}
+
+.userProfileRightCenter{
+    display: flex;
+    margin-top:18px;
+    margin-bottom: 18px;
+}
+.userPopularity{
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.numPopularity{
+    font-size:16px;
+    color: #000;
+}
+
+.popularityType{
+    font-size: 16px;
+    letter-spacing: 0.65px;
+    padding-left: 5px;
+    color: rgba(38,38,38);
+}
+
+.userProfileRightBottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.userProfileName{
+    font-weight: 600;
+    color: #4b4b4b;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.userProfileBio{
+    margin-top: 5px;
+    line-height:22px;
+    color: #4b4b4b;
+}

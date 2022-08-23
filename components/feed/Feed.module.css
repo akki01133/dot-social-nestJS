@@ -1,0 +1,15 @@
+.feed{
+    flex:4.4;
+    border-left:1.2px solid #e7d9d9;
+    border-right:1.2px solid #e7d9d9;
+}
+
+.feedTitle{
+    margin-top:10px;
+    margin-left: 20px;
+}
+
+.feedTitle span{
+    font-size: 22px;
+    font-weight:bold;
+}

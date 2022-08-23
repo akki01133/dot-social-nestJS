@@ -1,0 +1,138 @@
+.noticeboard{
+    position:absolute;
+    top:0;
+    right:0;
+    width:30.2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+
+}
+
+.noticeboardWrapper{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.noticeHeader{
+    margin:10px 0px;
+    width:88%;
+}
+
+.noticeSearchBar{
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 20px;
+}
+
+.noticeSearchBarIcon{
+    height:18px;
+    width: 18px;
+    padding-left:3px;
+}
+
+.noticeSearchBarInput{
+    background: none;
+    border:none;
+    outline: none;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+.noticeBody{
+    margin-top:10px;
+    width:92%;
+}
+
+.noticeBodyContainer{
+    background-color: #f2f2f2;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.noticeBodyContainer> span{
+    font-size:16px;
+    padding: 20px 22px;
+    font-weight:bold;
+}
+
+.noticeList{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+.notice{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e7d9d9;
+
+}
+
+.noticeTop{
+    padding: 10px 25px;
+}
+
+.noticeTop > span{
+    padding-left: 3px;
+    font-size:14px;
+    color:#6c6b6b;
+}
+
+
+.noticeCenter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 25px;
+
+}
+
+.noticeText{
+    font-size:14px;
+    margin-top:2px;
+    padding-right: 10px;
+}
+
+.noticeImage{
+    height: 80px;
+    width: 80px;
+}
+
+.noticeBottom{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    padding-right: 18px;
+    margin-bottom: 8px;
+}
+
+.noticeMoreIcon{
+    height: 18px;
+    width: 18px;
+}
+
+.noticeShowMore{
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:14px;
+    color: #116530;
+}
+
+
+
